@@ -16,11 +16,11 @@ print(result2)
 print(result3)
 print('')
 
-for i in range(len(result1)):  # решил вывести матрицы визуально
-    print(result1[i])
+for i in result1:  # решил вывести матрицы визуально
+    print(i)
 print('')
-for i in range(len(result2)):
-    print(result2[i])
+for i in result2:
+    print(i)
 print('')
-for i in range(len(result3)):
-    print(result3[i])
+for i in result3:
+    print(i)
